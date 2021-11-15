@@ -56,23 +56,25 @@
     font-family: Nunito;
     margin: 0 2em;
     padding: 0.5em 2em;
-  }
-  button:nth-child(1) {
-    background: #c4c4c4;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 15px;
-    align-items: center;
-    text-align: center;
-    color: #f32ba3;
-  }
-  button:nth-child(2) {
-    background: #000000;
-    border: 1px solid #f32ba3;
-    box-sizing: border-box;
-    border-radius: 15px;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
+
+    &:nth-child(1) {
+      background: #c4c4c4;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      border-radius: 15px;
+      align-items: center;
+      text-align: center;
+      color: #f32ba3;
+    }
+
+    &:nth-child(2) {
+      background: #000000;
+      border: 1px solid #f32ba3;
+      box-sizing: border-box;
+      border-radius: 15px;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+    }
   }
 }

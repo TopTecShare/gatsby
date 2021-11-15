@@ -4,9 +4,7 @@
   font-family: "nunito";
   align-items: center;
   justify-content: space-between;
-  @media screen and (max-width: 1175px) {
-    display: block;
-  }
+  flex-wrap: wrap;
 }
 
 .sub {
@@ -15,4 +13,5 @@
   font-family: "nunito";
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
