@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Prelogin from '../components/prelogin'
-import { header, container } from '../components/prelogin/styles/products.module.scss'
+import { header, container, button } from '../components/prelogin/styles/products.module.scss'
 
 const Products = () => {
   return (
@@ -21,7 +21,10 @@ const Products = () => {
         </div>
         <p>Get in contact with us to discuss EviStamp and how we can become partners to create awesome and powerful software!</p>
       </div>
-      <div></div>
+      <div className={button}>
+        <button>Contact sales</button>
+        <button>Start for Free</button>
+      </div>
     </Prelogin>
   )
 }
