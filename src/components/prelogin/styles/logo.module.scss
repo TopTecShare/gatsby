@@ -1,17 +1,16 @@
 .container {
-
   display: flex;
 
   img {
-    width:4.0625em;
-    height:3.125em;
+    width: 4.0625em !important;
+    height: 3.125em !important;
   }
 
   p {
     font-style: normal;
     font-weight: bold;
-    margin:0;
-    margin-left:0.875rem;
+    margin: 0;
+    margin-left: 0.875rem;
     line-height: 2.0625em;
     font-size: 1.5em;
 
