@@ -11,6 +11,10 @@ const Logo = () => {
         <StaticImage
           alt="Logo"
           src="../../images/logo.png"
+          style={{
+            width: '4.0625em',
+            height: '3.125em',
+          }}
         />
         <p>
           EviSTAMP
