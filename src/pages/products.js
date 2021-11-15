@@ -3,7 +3,9 @@ import Prelogin from '../components/prelogin'
 
 const Products = () => {
   return (
-    <Prelogin />
+    <Prelogin>
+
+    </Prelogin>
   )
 }
 export default Products

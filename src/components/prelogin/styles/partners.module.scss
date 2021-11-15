@@ -1,0 +1,79 @@
+.common {
+  font-family: Nunito;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.container1 {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  color: #ffffff;
+  padding: 1.71875em 2.6875em;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.container2 {
+  background: #e5e5e5;
+  border-radius: 15px;
+  color: #000000;
+  padding: 3em 0 1em 1em;
+  margin-top: 0.3em;
+}
+
+.customhead {
+  @extend .common;
+  font-size: 1.875em;
+  padding-bottom: 0.5em;
+}
+
+.custompara {
+  @extend .common;
+  font-size: 1.375em;
+  line-height: 1em;
+  text-align: justify;
+}
+
+.button {
+  @extend .common;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25em;
+  background: #f32ba3;
+  border: 1px solid #f32ba3;
+  box-sizing: border-box;
+  border-radius: 15px;
+  color: #000000;
+  padding: 0.6em 4.3em;
+}
+
+.container3 {
+  display: flex;
+  gap: 1.8em;
+  margin-top: 0.6325em;
+
+  div:nth-child(1) {
+    width: 50%;
+    background: #f32ba3;
+    border-radius: 15px;
+    padding: 3em 1em 1em 1em;
+    color: white;
+  }
+  div:nth-child(2) {
+    width: 50%;
+    background: #fbbbe2;
+    border-radius: 15px;
+    padding: 2em 1em 2em 1em;
+  }
+}
+
+.container4 {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 1.5em 0em 1em 1em;
+}
