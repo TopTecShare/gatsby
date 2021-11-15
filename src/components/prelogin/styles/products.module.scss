@@ -1,0 +1,62 @@
+.font {
+  font-family: Nunito;
+  font-style: normal;
+}
+.header {
+  @extend .font;
+  text-align: center;
+  align-items: center;
+  font-size: 1.875em;
+  margin: 2em 2em 0.5em 2em;
+}
+.container {
+  margin: 0 3em 0 2em;
+  color: black;
+  font-family: Nunito;
+  font-style: normal;
+
+  div {
+    border-radius: 15px;
+    display: flex;
+    margin-bottom: 0.4em;
+  }
+
+  div:nth-child(1) {
+    background: #f32ba3;
+  }
+  div:nth-child(2) {
+    background: #fbbbe2;
+  }
+  div:nth-child(3) {
+    background: rgba(0, 0, 0, 0.15);
+  }
+
+  h2 {
+    width: 36%;
+    font-size: 1.5625em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    width: 64%;
+    font-size: 1.25em;
+
+    align-items: center;
+    text-align: justify;
+    line-height: 1em;
+    padding: 1em;
+  }
+
+  p:nth-child(4){
+    width:100%;
+    font-size: 1.375em;
+    padding:0;
+    margin-top:1.5em;
+  }
+}
+
+.button{
+  
+}
