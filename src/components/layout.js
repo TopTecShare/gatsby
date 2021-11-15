@@ -1,12 +1,13 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
+
 import {
   container,
   heading,
   navLinks,
   navLinkItem,
   navLinkText
-} from './layout.module.css'
+} from './prelogin/styles/layout.module.scss'
 const Layout = ({ pageTitle, children }) => {
   return (
     <div className={container}>

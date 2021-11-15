@@ -1,0 +1,20 @@
+.container {
+  ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  li {
+    padding-right: 2rem;
+  }
+
+  a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25em;
+    line-height: 1.6875em;
+
+    color: black;
+  }
+}

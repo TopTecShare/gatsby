@@ -5,5 +5,15 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-sass",
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `nunito`,
+        ],
+        display: 'swap'
+      }
+    },
   ],
 };

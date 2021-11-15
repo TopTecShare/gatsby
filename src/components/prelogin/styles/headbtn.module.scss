@@ -1,0 +1,23 @@
+.common {
+  font-style: normal;
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 0.875em;
+  line-height: 1.1875em;
+  border: 1px solid #f32ba3;
+  box-sizing: border-box;
+  padding: 0.5em 2em;
+}
+
+.login {
+  @extend .common;
+  background: #ffffff;
+  color: #f32ba3;
+}
+
+.freeTrial {
+  @extend .common;
+  margin-left: 0.5em;
+  background: #f32ba3;
+  color: #ffffff;
+}
